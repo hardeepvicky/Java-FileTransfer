@@ -53,6 +53,7 @@ public class SenderJframe extends javax.swing.JFrame {
 
         jLabel3.setText("port");
 
+        txtPort.setText("2000");
         txtPort.setName("txtPort"); // NOI18N
 
         btnSend.setText("Send");

@@ -54,6 +54,7 @@ public class ReciverJframe extends javax.swing.JFrame {
 
         jLabel2.setText("Sender IP Address");
 
+        txtSenderIP.setText("127.0.0.1");
         txtSenderIP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtSenderIPActionPerformed(evt);
@@ -61,6 +62,8 @@ public class ReciverJframe extends javax.swing.JFrame {
         });
 
         jLabel3.setText("port");
+
+        txtPort.setText("2000");
 
         btnRecieve.setText("Receive");
         btnRecieve.addActionListener(new java.awt.event.ActionListener() {
